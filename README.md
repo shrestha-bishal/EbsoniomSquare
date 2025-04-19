@@ -1,17 +1,22 @@
 # EbsoniomSquare Supermarket Management System Software
 EbsoniomSquare is a Java-based desktop application designed to streamline and manage the daily operations of a supermarket. It provides a secure, user-friendly interface to control product inflow and outflow, manage inventory, handle sales, and maintain customer and employee records. Developed using Object-Oriented Programming principles in Java and integrated with an MS-SQL Server database via JDBC, the system offers a reliable and efficient solution tailored for large retail stores.
 
-#### Features
-- Inventory and Product Management
-- Customer and Employee Records
+#### Features 
+- User Management: Custom roles and permissions for different levels of access (admin, employee).
 - Secure Role-Based Access Control
-- Sales Checkout and Invoice Generation
-- Product Return and Restocking Functionality
-- Real-Time Inventory Updates
-- Multithreading Support for Concurrent User Operations
-- Interactive GUI developed using Java Swing
-- Exception Handling for Robust Operations
+- Customer Relationship Management: Manage customer data, interactions, and history.
+- Store Management: Group products for easy customer search and categorization.
+- Sales, Payment, Invoice, and Checkout Management: Secure processing of payments and generation of invoices.
+- Dealer Management: Handling dealer information and their product deliveries.
+- Reports and Statements: Generate reports on sales, inventory, and customer transactions.
+- Offers and Rewards: Integration of promotional offers and reward systems for customers.
+- Sales Return Management: Efficient handling of product returns and inventory adjustments.
+- Database Integration: MS-SQL for secure data storage and integration.
+- Multithreading Support: Handles multiple user tasks concurrently for better performance.
+- User Roles & Security: Custom roles and permissions for employees and administrators.
+- Inventory Management: Real-time updates and tracking of stock levels and product flow.
 - Modular Codebase with OOP Principles (Encapsulation, Inheritance, Polymorphism)
+- Interactive GUI developed using Java Swing
 
 #### Technologies Used
 - Java (Swing, JDBC)
